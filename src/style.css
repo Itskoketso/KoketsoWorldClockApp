@@ -1,5 +1,5 @@
 body {
-  background-color: #a7bcb9;
+  background-color: #5dacbd;
 }
 select {
   display: block;
@@ -16,34 +16,35 @@ h1 {
 h2 {
   margin: 0 0 5px;
   font-size: 28px;
-  .container {
-    max-width: 600px;
-    margin: 60px auto;
-    background-color: #e0ebeb;
-    padding: 30px;
-    box-shadow: 10px 5px 5px #24527a;
-    border-radius: 10px;
-  }
-  .city {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
-    padding: 30px 0;
-  }
-  .city :last-child {
-    border: none;
-  }
-  .time {
-    font-size: 48px;
-    font-weight: bold;
-  }
-  .time small {
-    font-size: 24px;
-    line-height: 36px;
-    vertical-align: middle;
-  }
 }
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: #e0ebeb;
+  padding: 30px;
+  box-shadow: 10px 5px 5px #24527a;
+  border-radius: 10px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  padding: 30px 0;
+}
+.city :last-child {
+  border: none;
+}
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 24px;
+  line-height: 36px;
+  vertical-align: middle;
+}
+
 .date {
   opacity: 0.7;
 }
