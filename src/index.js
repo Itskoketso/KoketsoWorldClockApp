@@ -30,7 +30,7 @@ function updateCity(event) {
   let cityTime = moment().tz(cityTZ);
   let citiesElement = document.querySelector("#cities");
 
-  citiesElement.innerHTML = ` <div class="city" id= "los-angeles">
+  citiesElement.innerHTML += ` <div class="city" id= "los-angeles">
         <div>
           <h2>${cityName}</h2>
           <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
